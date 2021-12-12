@@ -1,0 +1,15 @@
+{
+  "name": "svg-sprite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-sprite": "svg-sprite -s --symbol-dest icons --symbol-sprite icons.svg icons/individual-icons/*.svg"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "svg-sprite": "^1.5.3"
+  }
+}
